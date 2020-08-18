@@ -513,7 +513,7 @@ evaluate.run(multiply, random=True, broadcast=True)
 ✅ Random Test 98 passed!
 
 ✅ Random Test 99 passed!
-
+    </details>
 
 # Exercise #2
 
@@ -561,7 +561,7 @@ evaluate.run(array_plus_array)
 
 ✅ Test 7 passed!
 
-
+    </details>
 Once you have managed to pass all of the tests, run the cell above to see if you function can pass 100 randomly generated tests!
 
 
@@ -797,7 +797,7 @@ evaluate.run(array_plus_array, random=True)
 
 ✅ Random Test 100 passed!
 
-
+    </details>
 **Extra Credit:** Instead of summing all numbers in your array, see if you can edit the ```array_plus_array``` function so that it is broadcasting two arrays.
 
 ```
@@ -1048,4 +1048,4 @@ evaluate.run(array_plus_array, random=True, broadcast=True)
 ✅ Random Test 99 passed!
 
 ✅ Random Test 100 passed!
-
+    </details>
