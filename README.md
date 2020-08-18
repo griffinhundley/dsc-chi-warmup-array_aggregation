@@ -1,10 +1,5 @@
 *Import tests*
 
-
-```python
-from tests import MultiplyTest, ArrayTest
-```
-
 # For today's warmup, please solve the following code problems:
 
 ## Exercise #1
@@ -14,13 +9,6 @@ The function below doesn't work. Figure out why and fix the code.
 
 ```python
 def multiply(a, b):
-    a * b
-```
-
-
-```python
-# __SOLUTION__
-def multiply(a, b):
     return a * b
 ```
 
@@ -28,13 +16,6 @@ def multiply(a, b):
 
 
 ```python
-evaluate = MultiplyTest()
-evaluate.run(multiply)
-```
-
-
-```python
-# __SOLUTION__
 evaluate = MultiplyTest()
 evaluate.run(multiply)
 ```
@@ -58,13 +39,6 @@ Once you have passed the above tests, run the cell below to test your code on 10
 
 
 ```python
-evaluate.run(multiply, random=True)
-```
-
-
-```python
-# __SOLUTION__
-
 evaluate.run(multiply, random=True)
 ```
 
@@ -302,14 +276,6 @@ The output of the array should contain three numbers
 
 
 ```python
-def multiply(arr1, arr2):
-    pass
-```
-
-
-```python
-# __SOLUTION__
-
 import numpy as np
 
 def multiply(arr1, arr2):
@@ -320,13 +286,6 @@ def multiply(arr1, arr2):
 
 
 ```python
-evaluate.run(multiply, random=True, broadcast=True)
-```
-
-
-```python
-# __SOLUTION__
-
 evaluate.run(multiply, random=True, broadcast=True)
 ```
 
@@ -564,14 +523,6 @@ The function should return a single digit that sums all digits within both array
 
 ```python
 def array_plus_array(arr1, arr2):
-    pass
-```
-
-
-```python
-# __SOLUTION__
-
-def array_plus_array(arr1, arr2):
     return sum(arr1) + sum(arr2)
 ```
 
@@ -579,14 +530,6 @@ def array_plus_array(arr1, arr2):
 
 
 ```python
-evaluate = ArrayTest()
-evaluate.run(array_plus_array)
-```
-
-
-```python
-# __SOLUTION__
-
 evaluate = ArrayTest()
 evaluate.run(array_plus_array)
 ```
@@ -618,13 +561,6 @@ Once you have managed to pass all of the tests, run the cell above to see if you
 
 
 ```python
-evaluate.run(array_plus_array, random=True)
-```
-
-
-```python
-# __SOLUTION__
-
 evaluate.run(array_plus_array, random=True)
 ```
 
@@ -864,14 +800,6 @@ evaluate.run(array_plus_array, random=True)
 
 
 ```python
-def array_plus_array(arr1, arr2):
-    pass
-```
-
-
-```python
-# __SOLUTION__
-
 import numpy as np
 
 def array_plus_array(arr1, arr2):
@@ -884,14 +812,6 @@ Test your code by running the cell below
 
 
 ```python
-evaluate = ArrayTest()
-evaluate.run(array_plus_array, random=True, broadcast=True)
-```
-
-
-```python
-# __SOLUTION__
-
 evaluate = ArrayTest()
 evaluate.run(array_plus_array, random=True, broadcast=True)
 ```
