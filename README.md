@@ -38,7 +38,7 @@ evaluate.run(multiply)
 ✅ Test 2 passed!
 
 ✅ Test 3 passed!
-
+</details>
 
 Once you have passed the above tests, run the cell below to test your code on 100 randomly generated tests
 
@@ -266,7 +266,7 @@ evaluate.run(multiply, random=True)
 ✅ Random Test 98 passed!
 
 ✅ Random Test 99 passed!
-
+</details>
 
 **Extra Credit:** Instead of summing individual numbers, see if you can edit your ```multiply``` function so that it is [broadcasting](https://docs.scipy.org/doc/numpy/user/basics.broadcasting.html) two arrays.
 
