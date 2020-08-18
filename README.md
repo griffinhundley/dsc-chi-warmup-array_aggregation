@@ -1,5 +1,10 @@
 *Import tests*
 
+
+```python
+from tests import MultiplyTest, ArrayTest
+```
+
 # For today's warmup, please solve the following code problems:
 
 ## Exercise #1
