@@ -64,7 +64,6 @@ evaluate.run(multiply, random=True)
 
 ```python
 # __SOLUTION__
-
 evaluate.run(multiply, random=True)
 ```
 
@@ -309,7 +308,6 @@ def multiply(arr1, arr2):
 
 ```python
 # __SOLUTION__
-
 import numpy as np
 
 def multiply(arr1, arr2):
@@ -326,7 +324,6 @@ evaluate.run(multiply, random=True, broadcast=True)
 
 ```python
 # __SOLUTION__
-
 evaluate.run(multiply, random=True, broadcast=True)
 ```
 
@@ -570,7 +567,6 @@ def array_plus_array(arr1, arr2):
 
 ```python
 # __SOLUTION__
-
 def array_plus_array(arr1, arr2):
     return sum(arr1) + sum(arr2)
 ```
@@ -586,7 +582,6 @@ evaluate.run(array_plus_array)
 
 ```python
 # __SOLUTION__
-
 evaluate = ArrayTest()
 evaluate.run(array_plus_array)
 ```
@@ -624,7 +619,6 @@ evaluate.run(array_plus_array, random=True)
 
 ```python
 # __SOLUTION__
-
 evaluate.run(array_plus_array, random=True)
 ```
 
@@ -871,7 +865,6 @@ def array_plus_array(arr1, arr2):
 
 ```python
 # __SOLUTION__
-
 import numpy as np
 
 def array_plus_array(arr1, arr2):
@@ -891,7 +884,6 @@ evaluate.run(array_plus_array, random=True, broadcast=True)
 
 ```python
 # __SOLUTION__
-
 evaluate = ArrayTest()
 evaluate.run(array_plus_array, random=True, broadcast=True)
 ```
